@@ -18,7 +18,7 @@ async def on_ready():
 #當機器人完成啟動時
 async def on_ready():
     print('目前登入身份：',client.user)
-    Game = discord.Game('Python')
+    Game = discord.Game('Trans')
     #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
     await client.change_presence(status=discord.Status.idle, activity=Game)
     
